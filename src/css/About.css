@@ -1,0 +1,15 @@
+.float-image {
+	float:left;
+	position: relative;
+	top: -100px;
+	left: -100px;
+}
+
+@media only screen and (max-width: 600px) {
+	.float-image {
+		float:inherit;
+		position: inherit;
+		top: inherit;
+		left: inherit;
+	}
+  }

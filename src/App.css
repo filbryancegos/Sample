@@ -7,6 +7,9 @@
   pointer-events: none;
 }
 
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.h-min-screen {
+	min-height: 100vh;
+}
+
+.title-bg {
+	background-color: #013f70;
+}
+.title-book {
+	background-color: #0667b4;
+}
+.contact-form input, .contact-form textarea {
+	background-color: #e9e9e9 !important;
+	border: 2px solid #bababa !important;
 }
