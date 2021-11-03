@@ -8,6 +8,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
 import Book from './pages/Book'
+import Error from './pages/Error'
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
 				</Route>
 				<Route path="/book">
 					<Book />
+				</Route>
+				<Route path="*">
+					<Error />
 				</Route>
 			</Switch>
 			{/* <Footer /> */}
